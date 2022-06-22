@@ -33,7 +33,7 @@ const AddClientModal = () => {
     // remove the modal
     toggleBtn.current.click();
     //Add the client
-    addClient();
+    addClient(name, email, phone);
 
     setName("");
     setEmail("");
